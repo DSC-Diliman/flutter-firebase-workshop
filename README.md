@@ -1,5 +1,15 @@
 # Flutter-Firebase Workshop 2
 
+## Resources
+*Workshop Lecture:*
+Topic: Workshop 2
+Start Time : Oct 16, 2020 03:51 PM
+
+Meeting Recording:
+https://up-edu.zoom.us/rec/share/OtIivKkdfOcztR0CeuZ0JNebGfzY43x5gn5W-R1xjMMqaR62bOnQSmZOUX15lVLc.CMbNGxRRJf9rUTT-
+
+Access Passcode: R@nz7KJ8
+
 ## Quick Review
 
 On our first Flutter-Firebase workshop, we discussed the basics of Flutter
@@ -238,15 +248,6 @@ Spice up your flutter app with colors and font styles
   );
 
   ```
-## Resources
-*Workshop Lecture:*
-Topic: Workshop 2
-Start Time : Oct 16, 2020 03:51 PM
-
-Meeting Recording:
-https://up-edu.zoom.us/rec/share/OtIivKkdfOcztR0CeuZ0JNebGfzY43x5gn5W-R1xjMMqaR62bOnQSmZOUX15lVLc.CMbNGxRRJf9rUTT-
-
-Access Passcode: R@nz7KJ8
 
 ## Credit
 
