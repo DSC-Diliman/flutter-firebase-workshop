@@ -17,14 +17,44 @@ class HomePage extends StatelessWidget {
               child: Text(
                 "Todo List",
                 style: TextStyle(
-                    //applies style to your text
+                  //applies style to your text
                     fontSize: 40,
                     fontWeight: FontWeight.bold),
               ),
             ),
           ),
           // The enter button:
-          EnterButton(),
+          EnterButton(75, 150, '/todo_list'),
+
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text(
+                "Animated List",
+                style: TextStyle(
+                  //applies style to your text
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+          // The enter button
+          EnterButton(40, 150, '/animated_todo_list'),
+
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text(
+                "Animations",
+                style: TextStyle(
+                  //applies style to your text
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+          ),
+          // The enter button
+          EnterButton(40, 150, '/animation_page'),
         ],
       ),
     );
@@ -33,6 +63,12 @@ class HomePage extends StatelessWidget {
 
 class EnterButton extends StatefulWidget {
   @override
+
+  final double height, width;
+  final String route;
+
+  EnterButton(this.height, this.width, this.route);
+
   _EnterButtonState createState() => _EnterButtonState();
 }
 
@@ -43,19 +79,19 @@ class _EnterButtonState extends State<EnterButton> {
       onPressed: () {
         setState(() {
           // Go to the to-do list here:
-          Navigator.pushNamed(context, '/todo_list');
+          Navigator.pushNamed(context, widget.route);
         });
       },
       child: Center(
         child: Container(
-          width: 150.0, 
-          height: 60.0,
+          width: widget.width,
+          height: widget.height,
           decoration: BoxDecoration(
             border: Border.all(color: Colors.transparent),
             color: Color(0xFF42A5F5),
             borderRadius: BorderRadius.all(
                 Radius.circular(10.0) // Value is border radius
-                ),
+            ),
           ),
           child: Icon(Icons.arrow_forward_ios, color: Colors.white70, size: 30),
         ),
