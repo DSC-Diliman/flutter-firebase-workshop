@@ -6,9 +6,7 @@ Topic: Workshop 2
 Start Time : Oct 16, 2020 03:51 PM
 
 Meeting Recording:
-https://up-edu.zoom.us/rec/share/OtIivKkdfOcztR0CeuZ0JNebGfzY43x5gn5W-R1xjMMqaR62bOnQSmZOUX15lVLc.CMbNGxRRJf9rUTT-
-
-Access Passcode: R@nz7KJ8
+https://drive.google.com/file/d/1FUz2OnN2NIGGTlsRid9OqR_vy0t3m3zc/view
 
 ## Quick Review
 
