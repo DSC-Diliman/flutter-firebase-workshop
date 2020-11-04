@@ -1,7 +1,7 @@
 # Flutter-Firebase Workshop 3
 
 ## Resources
-- Lecture Recording : https://docs.google.com/presentation/d/1x4adqqpfrgIA5r5paBsDFeGyBGL7KLQ8-LRFY5mg_WE/edit?usp=sharing
+- Lecture Recording : https://drive.google.com/drive/folders/11Pz7WzjRt2uutOeJBkipu18rcEDmn_dV
 
 
 - Powerpoint : https://docs.google.com/presentation/d/1x4adqqpfrgIA5r5paBsDFeGyBGL7KLQ8-LRFY5mg_WE/edit?usp=sharing
